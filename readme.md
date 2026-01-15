@@ -69,6 +69,16 @@ Här är det viktigt att du testar de olika färgerna med text för att det ska 
 
 Testa sedan detta med hjälpa av [WAVE](https://wave.webaim.org/) verktyget för att se till att du har tillräcklig kontrast mellan text och bakgrundsfärger. Ett tips är att installera [browser-tillägget](https://wave.webaim.org/extension/) för WAVE. Du kan också använda [Contrast Checker](https://contrastchecker.com/) för att verifiera att dina färgval uppfyller tillgänglighetsstandarder.
 
+### Exempelsidan
+
+Om du testar med WAVE så kommer du se att färgerna på exempelsidan inte har tillräcklig kontrast. Prova att justera färgerna i CSS-filen tills du uppnår god kontrast. Ibland är det svårt att verkligen få den färg en vill ha och samtidigt uppfylla kontrastkraven. Då kan du behöva kompromissa lite med färgvalet.
+
+Du kan också skapa varianter av färgerna för att använda i olika sammanhang, till exempel ljusare eller mörkare nyanser för bakgrunder eller hover-effekter.
+
+### Dark mode
+
+Om du vill stödja dark mode i din grafiska profil eller att sidan är i dark mode så kan du byta plats på light och dark i CSS-reglerna. Vi kommer senare att jobba med att skapa funktion för att byta mellan light och dark mode på sidan. Var dock medveten om att det kan komma att justera färgerna igen för att få bra kontrast i båda lägena.
+
 ## Övrigt
 
 Beskriv andra viktiga visuella element i den grafiska profilen, såsom ikoner, bildstil eller layoutprinciper. Du kan kolla i brand-dokumentet på classroom för inspiration.
