@@ -36,14 +36,14 @@
     --space-s-l: clamp(1.125rem, 0.5625rem + 2.5vw, 2.5rem);
 
     /* Variabler för färger */
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --color-dark: #333;
-    --color-light: #f9f9f9;
+    --primary-color: #006400;
+    --secondary-color: #090;
+    --color-dark: #000;
+    --color-light: #edeae4;
 
     /* Variabler för typografi */
-    --type-heading: sans-serif;
-    --type-body: serif;
+    --type-heading: "Old Standard TT", serif;
+    --type-body: "Old Standard TT", serif;
     --line-height-body: 1.6;
     --line-height-heading: 1.1;
 
@@ -51,6 +51,7 @@
     --gutter: var(--space-m);
     --wrapper-max-width: 65rem;
 }
+
 
 /* Grundläggande stilar för body och rubriker */
 body {
