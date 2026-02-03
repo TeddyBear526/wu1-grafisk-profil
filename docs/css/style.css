@@ -38,8 +38,8 @@
     /* Variabler för färger */
     --primary-color: #006400;
     --secondary-color: #090;
-    --color-dark: #000;
-    --color-light: #fffafa;
+    --color-dark: #fffafa;
+    --color-light: #000;
 
     /* Variabler för typografi */
     --type-heading: "Old Standard TT", serif;
